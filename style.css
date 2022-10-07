@@ -17,8 +17,7 @@
 }
 .menu{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .description{
@@ -59,7 +58,12 @@ h2{
     flex-wrap: wrap;
 }
 
-
+.cuisine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column
+}
 
 
 
